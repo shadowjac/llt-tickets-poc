@@ -32,7 +32,7 @@ public sealed class Ticket : Entity
     public DateTime CreatedAt { get; private set; }
     public DateTime? UpdatedAt { get; private set; }
     public DateTime? PrintedAt { get; private set; }
-    public bool IsPrinted { get; private set; }
+    public bool IsPrinted { get; set; }
     
     public static Ticket Create(Guid ownerId,
         MatchDate matchDate,
