@@ -1,4 +1,4 @@
-namespace LLT.PrintTickets.PoC.Domain.Buyer.Repositories;
+namespace LLT.PrintTickets.PoC.Domain.Buyers.Repositories;
 
 public interface IBuyerRepository
 {

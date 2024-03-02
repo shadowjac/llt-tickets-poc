@@ -1,6 +1,6 @@
 using LLT.PrintTickets.PoC.Domain.Abstractions;
 
-namespace LLT.PrintTickets.PoC.Domain.Buyer;
+namespace LLT.PrintTickets.PoC.Domain.Buyers;
 
 public sealed class Buyer : Entity
 {
