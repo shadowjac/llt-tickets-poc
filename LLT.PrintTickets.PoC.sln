@@ -1,14 +1,14 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Domain", "LLT.PrintTickets.PoC.Domain\LLT.PrintTickets.PoC.Domain.csproj", "{3BA5989B-D006-4339-AC9A-5A4D973CC83C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Domain", "src\LLT.PrintTickets.PoC.Domain\LLT.PrintTickets.PoC.Domain.csproj", "{3BA5989B-D006-4339-AC9A-5A4D973CC83C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Application", "LLT.PrintTickets.PoC.Application\LLT.PrintTickets.PoC.Application.csproj", "{DBF5F78C-AB27-4709-9715-CD0030295065}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Application", "src\LLT.PrintTickets.PoC.Application\LLT.PrintTickets.PoC.Application.csproj", "{DBF5F78C-AB27-4709-9715-CD0030295065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Infrastructure", "LLT.PrintTickets.PoC.Infrastructure\LLT.PrintTickets.PoC.Infrastructure.csproj", "{BCFD1B05-2552-4ED4-9C99-895B88387C6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Infrastructure", "src\LLT.PrintTickets.PoC.Infrastructure\LLT.PrintTickets.PoC.Infrastructure.csproj", "{BCFD1B05-2552-4ED4-9C99-895B88387C6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Infrastructure.Persistence", "LLT.PrintTickets.PoC.Infrastructure.Persistence\LLT.PrintTickets.PoC.Infrastructure.Persistence.csproj", "{FAD49747-9E5F-423F-84AA-4CE225CC3161}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Infrastructure.Persistence", "src\LLT.PrintTickets.PoC.Infrastructure.Persistence\LLT.PrintTickets.PoC.Infrastructure.Persistence.csproj", "{FAD49747-9E5F-423F-84AA-4CE225CC3161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Api", "LLT.PrintTickets.PoC.Api\LLT.PrintTickets.PoC.Api.csproj", "{60B97638-B784-41C7-B041-0716A5E44D1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Api", "src\LLT.PrintTickets.PoC.Api\LLT.PrintTickets.PoC.Api.csproj", "{60B97638-B784-41C7-B041-0716A5E44D1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24CF7A3F-3F5F-4FF0-9341-E46004D67C98}"
 	ProjectSection(SolutionItems) = preProject

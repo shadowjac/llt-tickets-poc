@@ -8,8 +8,4 @@ public class TicketsController : BaseController
     public TicketsController(ISender sender) : base(sender)
     {
     }
-    
-    
-    [HttpGet]
-    
 }

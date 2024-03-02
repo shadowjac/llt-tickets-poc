@@ -18,7 +18,7 @@
       - '3060:5086'
     build:
       context: .
-      dockerfile: LLT.PrintTickets.PoC.Api/Dockerfile
+      dockerfile: src/LLT.PrintTickets.PoC.Api/Dockerfile
 
 volumes:
   db:
