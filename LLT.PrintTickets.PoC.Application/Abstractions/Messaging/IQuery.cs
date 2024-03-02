@@ -1,7 +1,7 @@
 using LLT.PrintTickets.PoC.Domain.Abstractions;
 using MediatR;
 
-namespace Application.Abstractions.Messaging;
+namespace LLT.PrintTickets.PoC.Application.Abstractions.Messaging;
 
 public interface IQuery<TResponse> : IRequest<Result<TResponse>>
 {

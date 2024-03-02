@@ -6,6 +6,10 @@ namespace LLT.PrintTickets.PoC.Domain.Tickets;
 
 public sealed class Ticket : Entity
 {
+    private Ticket()
+    {
+        
+    }
     private Ticket(Guid id,
         Guid ownerId,
         MatchDate matchDate,

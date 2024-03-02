@@ -1,6 +1,6 @@
 using Application.Abstractions.Data;
-using Application.Abstractions.Messaging;
 using Dapper;
+using LLT.PrintTickets.PoC.Application.Abstractions.Messaging;
 using LLT.PrintTickets.PoC.Domain.Abstractions;
 
 namespace LLT.PrintTickets.PoC.Application.Buyers.GetBuyer;
@@ -20,7 +20,7 @@ public sealed class GetBuyerQueryHandler : IQueryHandler<GetBuyerQuery, BuyerRes
         const string sql = """
                             SELECT b.id as Id,
                                    b.name as Name,
-                                   b.last_name as LastName
+                                   b.last_name as LastName,
                                    b.email as Email
                            FROM buyers b
                            WHERE b.id = @BuyerId

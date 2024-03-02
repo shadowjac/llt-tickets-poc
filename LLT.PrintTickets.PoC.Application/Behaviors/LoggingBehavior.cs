@@ -1,8 +1,8 @@
-using Application.Abstractions.Messaging;
+using LLT.PrintTickets.PoC.Application.Abstractions.Messaging;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Application.Behaviors;
+namespace LLT.PrintTickets.PoC.Application.Behaviors;
 
 public sealed class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IBaseCommand

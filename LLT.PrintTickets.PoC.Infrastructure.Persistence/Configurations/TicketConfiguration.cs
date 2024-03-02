@@ -19,6 +19,9 @@ internal sealed class TicketConfiguration : IEntityTypeConfiguration<Ticket>
             {
                 pb.Property(x => x.Day)
                     .HasColumnName("match_day");
+                
+                pb.Property(x => x.Time)
+                    .HasColumnName("match_time");
             });
 
         builder.Property(x => x.Home)

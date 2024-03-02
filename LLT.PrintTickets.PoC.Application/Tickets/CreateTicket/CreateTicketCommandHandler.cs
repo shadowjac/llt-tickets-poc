@@ -1,5 +1,5 @@
 using Application.Abstractions.Clock;
-using Application.Abstractions.Messaging;
+using LLT.PrintTickets.PoC.Application.Abstractions.Messaging;
 using LLT.PrintTickets.PoC.Application.Exceptions;
 using LLT.PrintTickets.PoC.Domain.Abstractions;
 using LLT.PrintTickets.PoC.Domain.Buyers;

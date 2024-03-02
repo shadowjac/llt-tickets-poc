@@ -8,6 +8,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Infras
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Infrastructure.Persistence", "LLT.PrintTickets.PoC.Infrastructure.Persistence\LLT.PrintTickets.PoC.Infrastructure.Persistence.csproj", "{FAD49747-9E5F-423F-84AA-4CE225CC3161}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLT.PrintTickets.PoC.Api", "LLT.PrintTickets.PoC.Api\LLT.PrintTickets.PoC.Api.csproj", "{60B97638-B784-41C7-B041-0716A5E44D1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24CF7A3F-3F5F-4FF0-9341-E46004D67C98}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +37,9 @@ Global
 		{FAD49747-9E5F-423F-84AA-4CE225CC3161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD49747-9E5F-423F-84AA-4CE225CC3161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD49747-9E5F-423F-84AA-4CE225CC3161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B97638-B784-41C7-B041-0716A5E44D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B97638-B784-41C7-B041-0716A5E44D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B97638-B784-41C7-B041-0716A5E44D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B97638-B784-41C7-B041-0716A5E44D1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
